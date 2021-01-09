@@ -10,7 +10,7 @@ with open('coco.names','r') as file:
     siniflar=file.read().splitlines()
 
 #detection yapilacak olan fotograf okunur
-img = cv.imread('koyun.jpg')
+img = cv.imread('image.jpg')
 height, width,_= img.shape
 
 # img, pre-processing
